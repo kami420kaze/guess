@@ -6,13 +6,13 @@ mi = int(mini)
 r = random.randint(mi, ma)
 i = 0
 while True:
+	i += 1 # i = i + 1
 	n = input('請猜猜看數字是多少: ')
 	n = int(n)
 	if n == r:
 		print('猜對了啦哈哈')
 		break
 	else:
-		i += 1
 		if n > r:
 			print('小一點啦幹!!')
 		else:
