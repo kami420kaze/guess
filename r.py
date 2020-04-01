@@ -12,7 +12,7 @@ while True:
 		print('猜對了啦哈哈')
 		break
 	else:
-		i = i + 1		
+		i += 1
 		if n > r:
 			print('小一點啦幹!!')
 		else:
